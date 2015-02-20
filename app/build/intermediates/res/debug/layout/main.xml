@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#333333"
+    android:weightSum="1.0">
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="message area"
+        android:background="#444"
+        android:textColor="#f8f8f8"
+        android:gravity="center_vertical"
+        android:layout_weight="0.08"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.23"
+        android:weightSum="1.0">
+
+    <Button
+        android:id="@+id/showAlertBtn1"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#f8f8f8"
+        android:textColor="#444444"
+        android:layout_margin="2dp"
+        android:text="Basic Alert Dialog"></Button>
+
+    <Button
+        android:id="@+id/showAlertBtn2"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#f8f8f8"
+        android:textColor="#444444"
+        android:layout_margin="2dp"
+        android:text="Radio Button Dialog"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.23"
+        android:weightSum="1.0">
+
+    <Button
+        android:id="@+id/showAlertBtn3"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#f8f8f8"
+        android:textColor="#444444"
+        android:layout_margin="2dp"
+        android:text="CheckBox Dialog"></Button>
+
+    <Button
+        android:id="@+id/showAlertBtn4"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#f8f8f8"
+        android:textColor="#444444"
+        android:layout_margin="2dp"
+        android:text="List Dialog"></Button>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.23"
+        android:weightSum="1.0">
+
+    <Button
+        android:id="@+id/showAlertBtn5"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#f8f8f8"
+        android:textColor="#444444"
+        android:layout_margin="2dp"
+        android:text="Custom Dialog"></Button>
+
+    <Button
+        android:id="@+id/showAlertBtn6"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#f8f8f8"
+        android:textColor="#444444"
+        android:layout_margin="2dp"
+        android:text="Date Picker Dialog"></Button>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.23"
+        android:weightSum="1.0">
+
+    <Button
+        android:id="@+id/showAlertBtn7"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#f8f8f8"
+        android:textColor="#444444"
+        android:layout_margin="2dp"
+        android:text="Time Picker Dialog" >
+
+    </Button>
+
+    <Button
+        android:id="@+id/showAlertBtn8"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#f8f8f8"
+        android:textColor="#444444"
+        android:layout_margin="2dp"
+        android:text="Dialog with Listener" >
+
+        </Button>
+
+        </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/home/scs/pepin/AndroidStudioProjects/DialogExamples/app/src/main/res/layout/main.xml -->
